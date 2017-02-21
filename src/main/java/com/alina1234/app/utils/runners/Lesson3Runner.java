@@ -14,6 +14,6 @@ public class Lesson3Runner {
 
         System.out.println("input float value is " + myFlo + ". Output char value is " + convertion.floatToChar(myFlo));
         System.out.println("Input int value is " + myIn + ". Output char value is " + convertion.intToChar(myIn));
-        System.out.println("Input char value is " + myCh + ". Output char value is " + convertion.charToInt(myCh));
+        System.out.println("Input char value is " + myCh + ". Output int value is " + convertion.charToInt(myCh));
     }
 }
