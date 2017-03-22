@@ -1,32 +1,27 @@
 package com.alina1234.app.classwork.lesson4;
 
-import java.util.Scanner;
-
 /**
  * Created by agr on 2/14/2017.
  */
 public class CircleArea {
-    public static void calculate(){
-        Scanner scanner = new Scanner (System.in);
-        System.out.println("Enter radius: ");
-        double radius = scanner.nextDouble();
-        double circleArea = Math.PI * radius * radius;
-        System.out.println("Area is " + circleArea);
+    public static double calculate(double radius){
+
+        return Math.PI * radius * radius;
     }
 
-    public static void calculateBigger(){
-        Scanner scanner = new Scanner (System.in);
-        System.out.println("Enter radius1: ");
-        double radius1 = scanner.nextDouble();
-        System.out.println("Enter radius2: ");
-        double radius2 = scanner.nextDouble();
-        double circleArea1 = Math.PI * radius1 * radius1;
-        double circleArea2 = Math.PI * radius2 * radius2;
+    public static String calculateBigger(double radius1, double radius2){
+
+        double circleArea1 = calculate(radius1);
+        double circleArea2 = calculate(radius2);
+        String resultArea;
+
         if (circleArea1 > circleArea2)
-            System.out.print("Area 1 is bigger");
+            return  resultArea = "Area 1 is bigger";
+
         else if (circleArea1 < circleArea2)
-            System.out.print("Area 2 is bigger");
+            return resultArea = "Area 2 is bigger";
+
         else
-            System.out.print("Area 1 is the same area 2");
+            return resultArea = "Area 1 is the same area 2";
     }
 }

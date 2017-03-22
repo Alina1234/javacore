@@ -1,4 +1,4 @@
-package com.alina1234.app.utils.runners;
+package com.alina1234.runners;
 
 import com.alina1234.app.utils.convertors.PrimitiveConvertor;
 

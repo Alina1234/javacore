@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2016.3.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -12,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7533"/>
+    <property name="idea.launcher.port" value="7540"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -63,15 +63,24 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase name="MinDoubleTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
   <testcase name="maxNegativeValueTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
   <testcase name="minValueTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
   <testcase name="sqrtValueTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
+  <testcase name="roundToLessVauleTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
+  <testcase name="roundNegativeToLessTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
+  <testcase name="MaxDoubleValue" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
+  <testcase name="roundNegativeToMost" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
   <testcase name="minNegativeNumbersTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
+  <testcase name="absoluteValueNegativeTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
   <testcase name="multiplyNegativeTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
   <testcase name="multiplyZeroTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
   <testcase name="maxPositiveNegativeValueTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
+  <testcase name="roundMostValue" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
   <testcase name="raisedToZeroPowerTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
+  <testcase name="absoluteFloatTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
   <testcase name="raisedToPowerTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
   <testcase name="minNegativeAndPositive" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
+  <testcase name="absoluteValueTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
   <testcase name="maxValueTest" classname="com.alina1234.app.homework.lesson3.HomeworkMathTest" time="0"/>
 </testsuite>
