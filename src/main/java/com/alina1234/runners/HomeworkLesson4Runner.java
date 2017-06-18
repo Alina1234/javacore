@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class HomeworkLesson4Runner {
     public static void main(String[] args) {
         int choose = 0;
-        do {
+      /**  do {
             inputMethod();
             Scanner scanner = new Scanner (System.in);
             choose = scanner.nextInt();
@@ -19,6 +19,23 @@ public class HomeworkLesson4Runner {
             else System.out.println("Please, enter number from 1 till 3");
         }
         while (choose != 0);
+       */
+      inputMethod();
+      Scanner scanner = new Scanner (System.in);
+      choose = scanner.nextInt();
+      switch (choose) {
+          case 1:
+              CircleAreaRunner.main(null);
+              break;
+          case 2:
+              TriangleLineRunner.main(null);
+              break;
+          case 3:
+              OddNumberRunner.main(null);
+              break;
+          case 0: break;
+          default: System.out.println("You have made incorrect choice");
+      }
     }
 
     public static void inputMethod() {

@@ -13,8 +13,6 @@ import org.junit.runner.RunWith;
 
 public class TriangleLineTest {
     TriangleLine triangleLine;
-
-    @Before
     public void setUp(){
         triangleLine = new TriangleLine();
     }
