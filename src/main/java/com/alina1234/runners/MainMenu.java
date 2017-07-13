@@ -27,11 +27,8 @@ public class MainMenu {
     public static void chooseMethod(int choose){
 
         switch (choose){
-            case 3:
-                Lesson3Runner.main(null);
-                break;
             case 4:
-                CircleAreaRunner.main(null);
+                HomeworkLesson4Runner.main(null);
                 break;
             case 5:
                 break;
@@ -59,6 +56,8 @@ public class MainMenu {
             case 15:
                 break;
             case 16:
+                break;
+            case 17:
                 break;
             default: System.out.println("You have made incorrect choice");
         }
