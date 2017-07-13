@@ -28,6 +28,4 @@ public class Human {
         else
             System.out.println("Age invalid");
     }
-
-
 }

@@ -8,18 +8,6 @@ import java.util.Scanner;
 public class HomeworkLesson4Runner {
     public static void main(String[] args) {
         int choose = 0;
-      /**  do {
-            inputMethod();
-            Scanner scanner = new Scanner (System.in);
-            choose = scanner.nextInt();
-            if (choose == 1) CircleAreaRunner.main(null);
-            else if (choose == 2) TriangleLineRunner.main(null);
-            else if (choose == 3) OddNumberRunner.main(null);
-            else if (choose == 0);
-            else System.out.println("Please, enter number from 1 till 3");
-        }
-        while (choose != 0);
-       */
       inputMethod();
       Scanner scanner = new Scanner (System.in);
       choose = scanner.nextInt();

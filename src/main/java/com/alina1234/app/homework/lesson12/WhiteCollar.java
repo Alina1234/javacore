@@ -13,7 +13,7 @@ public class WhiteCollar extends Human {
     }
 
     public void setCompany (String userCompany){
-        if (userCompany.matches("[a-zA-Z -]+")) {
+        if (userCompany.matches("[a-zA-Z -,]+")) {
             this.company = userCompany;
         }
         else System.out.println("Company name is invalid");
