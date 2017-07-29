@@ -8,10 +8,8 @@ import java.util.Arrays;
  */
 public class WorkWithFile {
 
-    public static String FILENAME = "D:\\homework10.txt";
-
-    public static String readFromFile() throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(FILENAME));
+    public static String readFromFile(String file_name) throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader(file_name));
         String line;
         StringBuilder sb_line = new StringBuilder();
 
@@ -28,7 +26,7 @@ public class WorkWithFile {
     }
 
     public static Integer[] convertToInt() throws IOException {
-        String [] lineArray = readFromFile().split(",");
+        String [] lineArray = readFromFile("D:\\homework10.txt").split(",");
         Integer [] intArray = new Integer[lineArray.length];
         int i = 0;
         for (String str:lineArray){
@@ -42,6 +40,11 @@ public class WorkWithFile {
         }
 
         return intArray;
+    }
+
+    public static String[] convertToLines() throws  IOException {
+        String [] strArray = readFromFile("D:\\homework10_2.txt").split("\r\n");
+        return  strArray;
     }
 
     public static String sortingIntToString(Integer arrayInt []) {
