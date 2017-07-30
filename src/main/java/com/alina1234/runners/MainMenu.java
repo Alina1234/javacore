@@ -1,9 +1,11 @@
 package com.alina1234.runners;
 
 import com.alina1234.app.classwork.lesson3.MathFunc;
+import com.alina1234.runners.homework.Lesson11Runner;
 import com.alina1234.runners.homework.Lesson12Runner;
 import com.alina1234.runners.homework.Lesson14Runner;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -24,7 +26,7 @@ public class MainMenu {
         return choose;
     }
 
-    public static void chooseMethod(int choose){
+    public static void chooseMethod(int choose) throws IOException {
 
         switch (choose){
             case 4:
@@ -43,6 +45,11 @@ public class MainMenu {
             case 10:
                 break;
             case 11:
+                try {
+                    Lesson11Runner.main(null);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
                 break;
             case 12:
                 Lesson12Runner.main(null);
