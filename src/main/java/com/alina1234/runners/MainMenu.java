@@ -12,10 +12,14 @@ import java.util.Scanner;
  * Created by agr on 7/13/2017.
  */
 public class MainMenu {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int userChoose;
         userChoose = inputMethod();
-        chooseMethod(userChoose);
+        try {
+            chooseMethod(userChoose);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static int inputMethod(){
